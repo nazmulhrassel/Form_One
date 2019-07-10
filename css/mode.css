@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&display=swap');
+
+*{
+    border: 0 solid #dae4e9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+       font-family: 'Roboto', sans-serif;
+   }
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.main-container{
+    background: #ea8686 url(../images/backg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    height: 100vh;
+    overflow: hidden;
+    }
+
+
+header{
+    
+    margin: 0 auto;
+    background-color: #343A40;
+    padding: 15px 0;
+}
+nav{
+   
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 15px;
+    display: block;
+}
+nav ul li a:hover{
+    color: #D996A2;
+}
+
+nav img{
+    width: 150px;
+}
+
+.container{
+    overflow: hidden;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 50px;
+    align-items: center;
+    background-color: #940d3b59;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+.intro h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+.intro h2 span{
+    font-size: 30px;
+    color: #690728;
+}
+.intro p{
+    font-size: 15px;
+    width: 80%;
+    color: white;
+}
+.intro i{
+    font-size: 15px;
+    color: white;
+}
+.intro i span{
+    font-size: 15px;
+    color: white;
+}
+
+.intro button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #921942;
+    font-size: 18px;
+    color: white;
+}
+
+.register{
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
+form{}
+.form{
+    max-width: 300px;
+    border-radius: 4px;
+    background: #c51853e8;
+    padding: 18px;
+}
+.form h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+.form p{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.form form{
+    width: 100%;
+    padding: 25px 0 0;
+    margin-bottom: 10px;
+}
+
+.form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 2px;
+}
+.submit{
+    color: white;
+    background: #921942;
+    box-shadow: 0 4px 5px #101b11;
+}
+
